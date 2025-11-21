@@ -1,0 +1,38 @@
+# CSV Data Files (too large for GitHub)
+*.csv
+phishing_dataset_clean.csv
+phishing_features.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files 
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment
+.env
