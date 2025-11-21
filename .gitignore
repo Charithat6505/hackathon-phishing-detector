@@ -1,4 +1,4 @@
-# CSV Data Files (too large for GitHub)
+# CSV Data Files (since too large for GitHub)
 *.csv
 phishing_dataset_clean.csv
 phishing_features.csv
