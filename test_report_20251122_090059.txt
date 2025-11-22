@@ -1,0 +1,168 @@
+================================================================================
+PHISHING DETECTOR - COMPREHENSIVE TEST REPORT
+Generated: 2025-11-22 09:00:59
+================================================================================
+
+SUMMARY
+-------
+Total Tests: 17
+Passed: 17
+Failed: 0
+Pass Rate: 100.0%
+
+DETAILED RESULTS
+----------------
+
+Test 1: Legitimate - Trusted
+URL: https://www.google.com
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 5.00%
+Confidence: 95.00%
+Analysis Time: 2.607s
+
+Test 2: Legitimate - Trusted
+URL: https://github.com
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 5.00%
+Confidence: 95.00%
+Analysis Time: 2.352s
+
+Test 3: Legitimate - Trusted
+URL: https://www.wikipedia.org
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 5.00%
+Confidence: 95.00%
+Analysis Time: 1.949s
+
+Test 4: Legitimate - Trusted
+URL: https://www.netflix.com
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 5.00%
+Confidence: 95.00%
+Analysis Time: 6.081s
+
+Test 5: Legitimate - Trusted
+URL: https://stackoverflow.com
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 5.00%
+Confidence: 95.00%
+Analysis Time: 3.342s
+
+Test 6: Legitimate - Unknown
+URL: https://www.geeksforgeeks.org
+Expected Risk: ['SAFE', 'LOW']
+Actual Risk: SAFE
+Status: PASS
+Phishing Probability: 9.65%
+Confidence: 90.35%
+Analysis Time: 1.841s
+
+Test 7: Legitimate - Unknown
+URL: https://www.w3schools.com
+Expected Risk: ['SAFE', 'LOW', 'MEDIUM']
+Actual Risk: LOW
+Status: PASS
+Phishing Probability: 30.10%
+Confidence: 69.90%
+Analysis Time: 2.270s
+
+Test 8: Phishing - Fake Domain
+URL: http://secure-paypal-verify.xyz/login
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.196s
+
+Test 9: Phishing - Suspicious Keywords
+URL: http://account-verification-required.com/signin
+Expected Risk: ['MEDIUM', 'HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.363s
+
+Test 10: Phishing - Urgency Tactic
+URL: http://update-your-account-now.xyz
+Expected Risk: ['MEDIUM', 'HIGH']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.462s
+
+Test 11: Phishing - IP Address
+URL: http://192.168.1.1/admin/login.php
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: CRITICAL
+Status: PASS
+Phishing Probability: 93.63%
+Confidence: 93.63%
+Analysis Time: 10.182s
+
+Test 12: Phishing - IP Address
+URL: http://10.0.0.1/secure/banking
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: CRITICAL
+Status: PASS
+Phishing Probability: 89.96%
+Confidence: 89.96%
+Analysis Time: 10.202s
+
+Test 13: Phishing - Fake Domain
+URL: https://this-site-does-not-exist-12345.void
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.443s
+
+Test 14: Phishing - Fake Domain
+URL: http://absolutely-fake-domain-xyz.invalid
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.365s
+
+Test 15: URL Shortener
+URL: https://bit.ly/test123
+Expected Risk: ['SAFE', 'LOW', 'MEDIUM']
+Actual Risk: MEDIUM
+Status: PASS
+Phishing Probability: 60.00%
+Confidence: 77.33%
+Analysis Time: 2.415s
+
+Test 16: Phishing - Complex
+URL: http://secure-login-paypal-verify-account-update.xyz/auth/signin.php
+Expected Risk: ['HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.353s
+
+Test 17: Phishing - Brand Spoofing
+URL: https://www.paypal-secure-login.com.fake-site.xyz
+Expected Risk: ['MEDIUM', 'HIGH', 'CRITICAL']
+Actual Risk: HIGH
+Status: PASS
+Phishing Probability: 90.00%
+Confidence: 90.00%
+Analysis Time: 0.444s
+

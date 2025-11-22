@@ -1,0 +1,60 @@
+# ============================================
+# BACKEND API REQUIREMENTS (backend_api.py)
+# ============================================
+
+# FastAPI Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Machine Learning (ML Model)
+scikit-learn==1.4.0
+joblib==1.3.2
+numpy==1.26.2
+
+# HTTP Requests (for redirect tracking & page fetching)
+requests==2.31.0
+
+# URL Processing (for feature extraction)
+tldextract==5.1.1
+
+# ============================================
+# FRONTEND REQUIREMENTS (frontend_app.py)
+# ============================================
+
+# Streamlit Framework
+streamlit==1.28.1
+
+# Data Visualization
+plotly==5.18.0
+
+# ============================================
+# TRAINING/TESTING REQUIREMENTS (Optional)
+# ============================================
+
+# Data Processing (only needed for retrain_model.py)
+pandas==2.1.3
+
+# Dataset Loading (only needed for retrain_model.py)
+datasets==2.15.0
+huggingface-hub==0.19.4
+
+# Testing (only needed for comprehensive_test.py)
+rich==13.7.0
+
+# Additional Scientific Computing (needed by scikit-learn)
+scipy==1.11.4
+
+# ============================================
+# DEPENDENCIES (Auto-installed with above)
+# ============================================
+# These are pulled in automatically, but we specify
+# versions for consistency:
+
+urllib3==2.1.0
+python-dateutil==2.8.2
+pytz==2023.3
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
